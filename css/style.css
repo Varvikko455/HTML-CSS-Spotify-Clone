@@ -1,0 +1,186 @@
+@font-face{
+    font-family: 'Circular Regular';
+    src: url(../fonts/circular-regular.ttf);
+}
+@font-face{
+    font-family: 'Circular Bold';
+    src: url(../fonts/circular.ttf);
+}
+
+
+
+
+
+
+.container{
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+.main-header{
+    height: 100vh;
+    width: 100%;
+}
+
+.navigation{
+    height: 6%;
+    width: 100%;
+    background: black;
+}
+
+.navigation-content{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+
+.logo-box{
+    display: flex;
+    align-items: center;
+    flex: 2;
+}
+.logo{
+    width: 130px;
+    fill: white;
+}
+
+
+
+.nav-box{
+    flex: 8;
+    height: 100%;
+}
+.nav{
+    height: 100%;
+    font-family: 'Circular Regular';
+}
+.menu{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.menu a{
+    color: white;
+}
+.menu-item{
+    padding: 20px;
+}
+.btn{
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn:hover{
+    color: #1ED760;
+}
+
+
+
+
+.hero{
+    height: 94%;
+    width: 100%;
+    background: #2940a8;
+}
+.hero-showcase{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.hero-showcase::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://www.scdn.co/i/home/lieVariants/bursts.svg)
+    no-repeat;
+    background-size: 170%;
+    background-position: 42% 12%;
+    z-index: 1;
+}
+.hero-showcase-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    color: #1ED760;
+    z-index: 9;
+}
+.hero-title{
+    font-size: 150px;
+    margin-bottom: 20px;
+    z-index: 9;
+}
+.hero-title-bit{
+    display: block;
+    padding-left: 200px;
+    font-weight: bold;
+}
+.hero-title, .hero-title-bit{
+    font-family: 'Circular Bold';
+}
+.hero-text{
+    margin: 40px;
+    font-size: 20px;
+    font-family: 'Circular Regular';
+    z-index: 9;
+}
+.hero-btn{
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #1ED760;
+    color: #2940a8;
+    z-index: 9;
+    
+}
+.hero-btn:hover{
+    background: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+.main-footer{
+    min-height: 450px;
+    width: 100%;
+    padding: 80px 0px;
+    background: black;
+    color: #ffffff;
+    font-family: 'Circular Regular';
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav{
+    display: flex;
+}
+
+
+
+
+.footer-bottom{
+    color: #ffffff;
+}
